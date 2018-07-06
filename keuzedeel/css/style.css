@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+.text {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  list-style: none;
+  border-bottom: 0;
+  z-index: 1000;
+}
+
+.pink {
+  color: #E62686 !important;
+}
+
+.va {
+  vertical-align: center !important;
+}
+
+.text li {
+  display: inline-block;
+  float: left;
+  font-weight: 700;
+  font-size: 2em;
+  color: #fff;
+  opacity: 1;
+  transition: all 1s ease-in-out;
+  max-width: 2em;
+}
+.text.hidden li.spaced {
+  padding-right: 0;
+}
+.text li.spaced {
+  padding-right: 0.5em;
+}
+
+.bb {
+  border-bottom: none !important;
+}
+
+.al {
+  float: right;
+}
+
+.ar {
+  float: left;
+}
+
+.bt {
+  border-top: none !important;
+}
+
+.text.hidden li.ghost {
+  opacity: 0;
+  max-width: 0;
+}
+
+.gone.hidden {
+  opacity: 0;
+  max-width: 0;
+}
+
+.leerjaar-buttons{
+  margin-top: 400px;
+}
+
+.leerjaar-buttons button {
+  background-color: #E62686;
+  border: none;
+}
+
+.table {
+  background-color: black;
+}
+
+table {
+  margin-left: 25%;
+  margin-top: 20px;
+}
