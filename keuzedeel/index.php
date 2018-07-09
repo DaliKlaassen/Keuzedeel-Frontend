@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
    <head>
       <meta charset="utf-8">
       <meta name="keywords" content="Frontend,Voorlichting,Studenten,2018,2019,Ma,Mediacollege,Amsterdam,Dal,20182019, Dalí, Klaassen, Leerjaar">
@@ -47,14 +47,14 @@
       <div class="row">
          <div class="col">
             <div class="btn-group leerjaar-buttons" role="group" aria-label="=Leerjaren">
-               <button type="button" class="btn btn-secondary">Leerjaar 1</button>
-               <button type="button" class="btn btn-secondary">Leerjaar 2</button>
-               <button type="button" class="btn btn-secondary">Leerjaar 3</button>
+               <button type="button" id="lj1" class="btn btn-secondary">Leerjaar 1</button>
+               <button type="button" id="lj2" class="btn btn-secondary">Leerjaar 2</button>
+               <button type="button" id="lj3" class="btn btn-secondary">Leerjaar 3</button>
             </div>
          </div>
       </div>
       <div class="row">
-         <table class="table w-50 table-bordered table-dark">
+         <table id="tlj1" class="table-bordered table-dark">
             <thead>
                <tr>
                   <th scope="col"><span style="color:#E62686;">P</span>eriode 1</th>
@@ -116,7 +116,7 @@
                </tr>
             </tbody>
          </table>
-         <table class="table w-50 table-bordered table-dark">
+         <table id="tlj2" class="table-bordered table-dark">
             <thead>
                <tr>
                   <th scope="col"><span style="color:#E62686;">P</span>eriode 1</th>
@@ -126,7 +126,6 @@
                </tr>
             </thead>
             <tbody>
-               <tr>
                <tr>
                   <td class="va" rowspan="2" colspan="1">Basis</td>
                   <td class="bb" colspan="1"></td>
@@ -135,10 +134,53 @@
                <tr>
                   <td class="bt" colspan="3">Verdieping</td>
                </tr>
+               <tr>
+                 <td colspan="4"></td>
+               </tr>
+               <tr>
+                  <td colspan="2">Keuze 1 Front-end <span class="al">2</span></td>
+                  <td colspan="2" rowspan="2">Keuze 3 MOB of ONV <span class="al">1</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2">Keuze 2 VP<span class="al">2</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2">FRO<span class="al">2</span></td>
+                  <td colspan="2" rowspan="3">BPV<span class="al"></span></td>
+               </tr>
+               <tr>
+                  <td colspan="2">BAP<span class="al">3</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2">CMS<span class="al">2</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2">SLB<span class="al">1</span></td>
+                  <td colspan="2">SLB<span class="al">1</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2">POW<span class="al">1</span></td>
+                  <td colspan="2">POW<span class="al">1</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2">ENG <span class="al">2</span></td>
+                  <td colspan="2">ENG <span class="al">1</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2">REK <span class="al">2</span></td>
+                  <td colspan="2">REK <span class="al">1</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2">NED <span class="al">2</span></td>
+                  <td colspan="2">NED <span class="al">1</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2"><span class="ar">Totaal</span><span class="al">26</span></td>
+                  <td colspan="2"><span class="ar">Totaal</span><span class="al">6</span></td>
                </tr>
             </tbody>
          </table>
-         <table class="table w-50 table-bordered table-dark">
+         <table id="tlj3" class="table-bordered table-dark">
             <thead>
                <tr>
                   <th scope="col"><span style="color:#E62686;">P</span>eriode 1</th>
@@ -150,11 +192,42 @@
             <tbody>
                <tr>
                   <td colspan="2">Stage</td>
-                  s
+
                   <td class="va" rowspan="2" colspan="2">Examens</td>
                </tr>
                <tr>
-                  <td>Verdieping</td>
+                  <td colspan="2">Verdieping</td>
+               </tr>
+               <tr>
+                 <td colspan="4"></td>
+               </tr>
+               <tr>
+                  <td colspan="2">Keuze 3 MOB of ONV <span class="al">4</span></td>
+                  <td colspan="2"></td>
+               </tr>
+               <tr>
+                  <td colspan="2">BPV<span class="al"></span></td>
+                  <td colspan="2">EXA<span class="al">22</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2">SLB<span class="al">1</span></td>
+                  <td colspan="2">SLB<span class="al">1</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2">POW<span class="al">1</span></td>
+                  <td colspan="2">POW<span class="al">1</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2"> <span class="al"></span></td>
+                  <td colspan="2">ENG <span class="al">1</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2"> <span class="al"></span></td>
+                  <td colspan="2">NED <span class="al">1</span></td>
+               </tr>
+               <tr>
+                  <td colspan="2"><span class="ar">Totaal</span><span class="al">6</span></td>
+                  <td colspan="2"><span class="ar">Totaal</span><span class="al">26</span></td>
                </tr>
             </tbody>
          </table>
